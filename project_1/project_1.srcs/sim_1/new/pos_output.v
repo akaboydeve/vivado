@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/29/2023 01:26:17 PM
+// Create Date: 08/29/2023 10:07:13 PM
 // Design Name: 
-// Module Name: sop_output
+// Module Name: pos_output
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,22 +20,22 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module sop_output(
+module pos_output(
 
     );
-    reg A,B,C;
-    wire F;
-    sop uut(A,B,C,F);
-    initial
-    begin
-        A=0;B=0;C=0;
-    #10 A=0;B=0;C=1;
-    #10 A=0;B=1;C=0;
-    #10 A=0;B=1;C=1;
-    #10 A=1;B=0;C=0;
-    #10 A=1;B=0;C=1;
-    #10 A=1;B=1;C=0;
-    #10 A=1;B=1;C=1;
-    #10 $finish;
-    end
+    reg a,b,c;
+        wire f;
+        pos uut(a,b,c,f);
+        initial
+        begin
+            a=0;b=0;c=0;
+        #10 a=0;b=0;c=1;
+        #10 a=0;b=1;c=0;
+        #10 a=0;b=1;c=1;
+        #10 a=1;b=0;c=0;
+        #10 a=1;b=0;c=1;
+        #10 a=1;b=1;c=0;
+        #10 a=1;b=1;c=1;
+        #10 $finish;
+        end
 endmodule
