@@ -1,0 +1,3 @@
+Vivado Simulator 2016.1
+Time resolution is 1 ps
+$finish called at time : 400 ns : File "C:/New folder/vivado/experiment2/full_adder/full_adder/full_adder.srcs/sim_1/new/full_adder_testbench.v" Line 37
