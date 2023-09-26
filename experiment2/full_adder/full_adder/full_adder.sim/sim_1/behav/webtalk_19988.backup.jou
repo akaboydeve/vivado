@@ -2,13 +2,11 @@
 # Webtalk v2016.1 (64-bit)
 # SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
 # IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-# Start of session at: Tue Sep 05 14:06:19 2023
-# Process ID: 15144
+# Start of session at: Sun Sep 10 11:48:51 2023
+# Process ID: 19988
 # Current directory: C:/New folder/vivado/experiment2/full_adder/full_adder/full_adder.sim/sim_1/behav
 # Command line: wbtcv.exe -mode batch -source C:/New folder/vivado/experiment2/full_adder/full_adder/full_adder.sim/sim_1/behav/xsim.dir/full_adder_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/New folder/vivado/experiment2/full_adder/full_adder/full_adder.sim/sim_1/behav/webtalk.log
 # Journal file: C:/New folder/vivado/experiment2/full_adder/full_adder/full_adder.sim/sim_1/behav\webtalk.jou
 #-----------------------------------------------------------
 source C:/New -notrace
-couldn't read file "C:/New": permission denied
-INFO: [Common 17-206] Exiting Webtalk at Tue Sep 05 14:06:19 2023...

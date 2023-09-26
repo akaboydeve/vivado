@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Sep 05 14:08:44 2023">
+<application name="pa" timeStamp="Sun Sep 10 11:53:35 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="b444b103040e4dab947c0f27640e9c8a" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -19,125 +19,64 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddSources" value="1" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="SimulationRun" value="5" type="JavaHandler"/>
-<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="6" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="2" type="JavaHandler"/>
 <property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="BACK,  Back" value="1" type="GuiResourceData"/>
-<property name="FINISH, Finish" value="2" type="GuiResourceData"/>
-<property name="NEXT, Next " value="9" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="3" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, full_adder" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, full_adder_testbench" value="1" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="2" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, a,b,cin, 0, Port Name, 0" value="2" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 1, Direction, 1" value="2" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, s,cout ; input ; false ; 0 ; 0, 1, input, 1" value="2" type="GuiResourceData"/>
-<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, s,cout, 1, Port Name, 0" value="2" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, full_adder (full_adder.v" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, full_adder_testbench (full_adder_testbench.v" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="5" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.NetlistSchMenuAndMouse_VIEW, View" value="2" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Artix-7 AC701 Evaluation Platform ; xilinx.com ; 1.1 ; xc7a200tfbg676-2 ; 676 ; 1.3 ; 365 ; 740 ; 269200 ; 8 ; 8 ; 400 ; 134600 ; 10 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0, 1, Artix-7 AC701 Evaluation Platform, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, C:/New folder/vivado/experiment2/full_adder" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, full_adder" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE, (String" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE, C:/New folder/vivado/full_adder_schematic.pdf" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE, C:/New folder/vivado/project_1/schematic.p" value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SchMenuAndMouse_SAVE_AS_PDF_FILE, Save as PDF File..." value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SelectMenu_MARK, Mark" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, Synthesis  Simulation, 0, HDL Source For, 5" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, VerilogSourceFile_small ; 1 ; full_adder.v ; Local to Project ; xil_defaultlib ; Synthesis  Simulation ; Local to Project, 0, Synthesis  Simulation, 5" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="6" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 178, 518" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 199, 337, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 399" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 211, 12" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 212, 430" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 271, 35" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 283, 561" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 289, 506, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 831, 17" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 832, 14" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 848, 359" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 914, 57" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 926, 14" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 926, 28" value="1" type="GuiResourceData"/>
 <property name="RDIResource.WaveformOptionsView_CLOSE, (String" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformOptionsView_TABBED_PANE, RDIResource.WaveformOptionsView_COLORS, Colors, 1" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=0,g=255,b=0], 9, java.awt.Color[r=0,g=255,b=0], 1" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=51,g=153,b=102], 9, java.awt.Color[r=51,g=153,b=102], 1" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Name/Value Area Background ; java.awt.Color[r=0,g=0,b=0], 2, java.awt.Color[r=0,g=0,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_DRAW_WAVEFORM_SHADOW, Draw waveform shadow, false" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_DRAW_WAVEFORM_SHADOW, Draw waveform shadow, true" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_ELIDE_SETTING, Left, 0" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_ELIDE_SETTING, Middle, 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_RADIX, Binary, 0" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_RADIX, Hexadecimal, 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_RESET_TO_DEFAULTS, (String" value="4" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_SHOW_SIGNAL_INDICES, Show signal indices, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_SHOW_SIGNAL_INDICES, Show signal indices, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_TABBED_PANE, RDIResource.WaveformOptionsView_COLORS, Colors, 1" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=0,g=0,b=0], 9, java.awt.Color[r=0,g=0,b=0], 1" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=0,g=255,b=0], 9, java.awt.Color[r=0,g=255,b=0], 1" value="5" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=128,g=0,b=0], 9, java.awt.Color[r=128,g=0,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=153,g=51,b=0], 9, java.awt.Color[r=153,g=51,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=255,g=0,b=0], 9, java.awt.Color[r=255,g=0,b=0], 1" value="3" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=255,g=0,b=100], 9, java.awt.Color[r=255,g=0,b=100], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=255,g=255,b=255], 9, Default Waveform, 0" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=255,g=255,b=255], 9, Default Waveform, 0, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=255,g=255,b=255], 9, java.awt.Color[r=255,g=255,b=255], 1" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Default Waveform ; java.awt.Color[r=51,g=204,b=204], 9, java.awt.Color[r=51,g=204,b=204], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Selected Waveform Area Item ; java.awt.Color[r=0,g=0,b=0], 5, java.awt.Color[r=0,g=0,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Selected Waveform Area Item ; java.awt.Color[r=255,g=255,b=255], 5, java.awt.Color[r=255,g=255,b=255], 1" value="1" type="GuiResourceData"/>
 <property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Background ; java.awt.Color[r=0,g=0,b=0], 0, java.awt.Color[r=0,g=0,b=0], 1" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Value Weak ; java.awt.Color[r=0,g=255,b=0], 14, java.awt.Color[r=0,g=255,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Background ; java.awt.Color[r=153,g=51,b=0], 0, java.awt.Color[r=153,g=51,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Background ; java.awt.Color[r=204,g=255,b=204], 0, java.awt.Color[r=204,g=255,b=204], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Background ; java.awt.Color[r=204,g=255,b=255], 0, java.awt.Color[r=204,g=255,b=255], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Background ; java.awt.Color[r=255,g=255,b=255], 0, java.awt.Color[r=255,g=255,b=255], 1" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Foreground ; java.awt.Color[r=255,g=0,b=0], 1, java.awt.Color[r=255,g=0,b=0], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Area Foreground ; java.awt.Color[r=255,g=255,b=255], 1, java.awt.Color[r=255,g=255,b=255], 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Text ; java.awt.Color[r=0,g=255,b=0], 10, java.awt.Color[r=0,g=255,b=0], 1" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformOptionsView_WAVEFORM_OPTIONS_TABLE, Waveform Text ; java.awt.Color[r=255,g=255,b=255], 10, java.awt.Color[r=255,g=255,b=255], 1" value="1" type="GuiResourceData"/>
 <property name="RDIResource.WaveformView_WAVEFORM_OPTIONS, Waveform Viewer_options" value="1" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="2" type="GuiResourceData"/>
-<property name="full_adder.v, 112, 502" value="1" type="GuiResourceData"/>
-<property name="full_adder.v, 172, 471" value="1" type="GuiResourceData"/>
-<property name="full_adder.v, 323, 416" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 127, 530" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 127, 530, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 127, 556" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 127, 556, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 128, 442" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 128, 442, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 129, 417" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 129, 417, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 140, 250" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 147, 285" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 162, 491" value="2" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 192, 520" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 198, 395" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 198, 395, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 200, 395" value="3" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 200, 395, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 200, 445" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 200, 445, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 202, 502" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 202, 502, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 202, 553" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 202, 553, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 229, 77" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 237, 153" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 242, 225" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 271, 492" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 303, 261" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 303, 261, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 306, 262" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 308, 256" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 312, 262" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 313, 260" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 314, 270" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 329, 470" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 329, 483" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 389, 486, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 409, 260" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 422, 491" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 46, 258" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 48, 475" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 51, 425" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 51, 93" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 78, 500" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 78, 500, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 500" value="4" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 500, false, false, false, false, true" value="2" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 532" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 532, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 556" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 81, 556, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 87, 480" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 92, 293" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 93, 263" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 96, 495" value="1" type="GuiResourceData"/>
-<property name="full_adder_testbench.v, 99, 553" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="6" type="GuiMode"/>
+<property name="GuiMode" value="7" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="4" type="TclMode"/>
+<property name="TclMode" value="5" type="TclMode"/>
 </item>
 </section>
 </application>
